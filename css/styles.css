@@ -70,7 +70,7 @@ a {
   text-decoration: none;
 }
 img {
-  width: 40%;
+  width: 100%;
   display: block;
 }
 /* img:not(.nav-logo) {
@@ -231,12 +231,14 @@ About
 .about-img, .about-info {
   margin-bottom: 2rem;
 }
+
 @media screen and (min-width: 992px) {
   .about-center {
     display:flex;
   }
   .about-img, .about-info {
     flex: 1 0 calc(50% - 2rem);
+  
   }
 }
 
