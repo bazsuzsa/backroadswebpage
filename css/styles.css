@@ -165,8 +165,9 @@ p {
   max-width: 1170px;
 }
 @media screen and (min-width: 992px){
-  .section-title span{color: var(--clr-primary-5);
-}
+  .section-center{
+    width: 95vw;
+}}
 
 /*
 =============== 
@@ -221,6 +222,7 @@ background:linear-gradient(rgb(44,174,186,0.7),rgb(0,0,0,0.7)) ,url('../images/m
     margin: 1.5rem;
   }
 }
+
 /*
 =============== 
 About
